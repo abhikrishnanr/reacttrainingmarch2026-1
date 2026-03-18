@@ -1,13 +1,14 @@
 import type { Metadata } from 'next';
+import type { ReactNode } from 'react';
 import './globals.css';
 import { Providers } from '@/components/providers';
 
 export const metadata: Metadata = {
-  title: 'TanStack Query Parameter Inspector',
-  description: 'Developer-friendly parameter inspection demo with Next.js 16, Zod, and React Hook Form.',
+  title: 'Cinema Seat Booking Demo',
+  description: 'Film seat booking demo built with Next.js 16, TanStack Query, React Hook Form, and Zod validation.',
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="en">
       <body>
