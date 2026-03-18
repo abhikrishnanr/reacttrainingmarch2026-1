@@ -1,0 +1,20 @@
+:root {
+  color-scheme: dark;
+  --bg: #09111f;
+  --card: rgba(12, 23, 44, 0.88);
+  --card-soft: rgba(24, 38, 66, 0.74);
+  --border: rgba(120, 156, 255, 0.28);
+  --text: #eff4ff;
+  --muted: #b3c0df;
+  --accent: #8fb7ff;
+  --accent-strong: #5f8fff;
+  --success: #8af0b2;
+  --warning: #ffd36b;
+  --danger: #ff9c9c;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; background: radial-gradient(circle at top, #132241 0%, var(--bg) 58%); color: var(--text); font-family: Arial, Helvetica, sans-serif; }
+a { color: inherit; }
+body { padding: 24px; }
+button, input, textarea { font: inherit; }
